@@ -1,0 +1,43 @@
+/* css units */
+/* sabit birimler ve göreceli birimler */
+/* 1 inch => 96 px =>2.54 cm */
+/* 1 pt => 1/72 inch */
+/* 1 pc=12pt */
+
+p{
+    /* font-size: 30px;
+    font-size: 5cm;
+    font-size: 5mm;
+    font-size: 5pt;
+    font-size: 5pc; */
+    line-height: 2.5;
+}
+div{
+    background-color: red;
+    /* width: 250px;
+    height: 250px; */
+    height: 550px;
+    /* border-radius: 
+    10px;
+    border-style: solid;
+    border-color: black; */
+    /* border: 2px solid black; */
+    border: black 2px solid;
+    border-width: 5px;
+    border-radius:25px ;
+    padding: 25px;
+    margin-bottom:10px ;
+    margin: 5px 0 50px 0;
+}
+span{
+    background-color: yellowgreen
+    ;
+    width: 500px;
+    height: 500px;
+}
+#box-2{
+    background: url("https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg")no-repeat center center/cover ;
+    /* background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}

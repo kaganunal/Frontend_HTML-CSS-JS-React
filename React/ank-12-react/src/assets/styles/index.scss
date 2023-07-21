@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  background-color: darkgray;
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    // height: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    text-align: center;
+    img {
+      width: 100px;
+      object-fit: cover;
+
+      &:hover {
+        transition: all 1s;
+        width: 150px;
+        background-color: blanchedalmond;
+      }
+    }
+    .card {
+      background-color: whitesmoke;
+      margin: 10px 0px;
+      border-radius: 50%;
+      width: 450px;
+      padding: 20px;
+      .btn {
+        background-color: gray;
+        width: 50%;
+        margin: 10px auto;
+        padding: 5px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        &:hover{
+            background-color: red;
+            cursor: pointer;
+            padding: 20px;
+            transition: all 0.7s;
+          }
+        a {
+          text-decoration: none;
+          color: #ddd;
+        }
+      
+      }
+    }
+  }
+}
+// #root .app{
+//     background-color: bisque;
+// }

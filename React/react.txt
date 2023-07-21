@@ -1,0 +1,3 @@
+npx create-react-app dosya-adı                cra template örnek proje oluşturma
+cd ile oluşturduğumuz klasörün içine gideceğiz. Node modules olan klasör.
+npm start => projeyi çalıştırır. Ayağa kaldırır. Development server açılır.

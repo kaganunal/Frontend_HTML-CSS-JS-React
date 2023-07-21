@@ -1,0 +1,98 @@
+{
+  "kitaplar": [
+    {
+      "id": 1,
+      "kitapAdi": "Sefiller",
+      "kitapYazar": "Victor Hugo",
+      "kitapSayfa": 512,
+      "kitapResmi": "https://img.kitapyurdu.com/v1/getImage/fn:11576934/wh:true/wi:220",
+      "kitapAciklama": "İhtiyaçları fazlalaşan insanlar, kaynakların sınırlarını zorlamaya itilir ve yollarına çıkan savunmasız birinden bile irkilir. İş ve ücretler, yiyecek ve barınma, cesaret ve iyi niyet; hepsi sahip olamadıkları şeylerdir. Işık gölgeye dönüşür ve karanlık yüreklerini doldurur.",
+      "kitapKategoriId": 1
+    },
+    {
+      "id": 2,
+      "kitapAdi": "The 100",
+      "kitapYazar": "Kass Morgan",
+      "kitapSayfa": "482",
+      "kitapResmi": "https://i.dr.com.tr/cache/500x400-0/originals/0000000614491-1.jpg",
+      "kitapAciklama": "Yaşanan nükleer felaket dünyanın sonunu getirmiş, bu büyük felaketten sağ kurtulan insanlar 300 yıl boyunca Dünya'nın yörüngesindeki bir uzay gemisinde varlıklarını sürdürmüştür.",
+      "kitapKategoriId": 2
+    },
+    {
+      "id": 3,
+      "kitapAdi": "Suc Ve Ceza",
+      "kitapYazar": "Dostoyevski",
+      "kitapSayfa": 705,
+      "kitapResmi": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cover_of_the_first_edition_of_Crime_and_Punishment.jpg/200px-Cover_of_the_first_edition_of_Crime_and_Punishment.jpg",
+      "kitapAciklama": "Suç ve Ceza (Rus Reformu öncesi Rusça: Преступленіе и наказаніе; Rus Reformu sonrası Rusça: Преступление и наказание), Rus yazar Fyodor Dostoyevski tarafından yazılan psikolojik ve dram türündeki romandır. İlk olarak 1866 yılı boyunca Rus Habercisi adlı edebiyat dergisinde on iki ayda yayımlandı.[1] Daha sonra ise tek cilt olarak yayımlandı. Dostoyevski'nin beş yıl süren Sibirya sürgününün dönüşünde yazdığı tam uzunluktaki ikinci romanıdır. Suç ve Ceza, yazarın  döneminin ilk büyük romanı olarak kabul edilir.",
+      "kitapKategoriId": 2
+    },
+    {
+      "id": 4,
+      "kitapAdi": "Harry Potter and the Sorcerer's Stone",
+      "kitapYazar": "J.K. Rowling",
+      "kitapSayfa": 320,
+      "kitapResmi": "https://img.kitapyurdu.com/v1/getImage/fn:13215925/wh:true/wi:220",
+      "kitapAciklama": "A young boy with a great destiny proves his worth while attending Hogwarts School of Witchcraft and Wizardry.",
+      "kitapKategoriId": 2
+    },
+    {
+      "id": 5,
+      "kitapAdi": "To Kill a Mockingbird",
+      "kitapYazar": "Harper Lee",
+      "kitapSayfa": 336,
+      "kitapResmi": "https://img.kitapyurdu.com/v1/getImage/fn:1999375/wh:true/wi:220",
+      "kitapAciklama": "A lawyer defends a black man accused of raping a white woman.",
+      "kitapKategoriId": 3
+    },
+    {
+      "id": 6,
+      "kitapAdi": "Cin Ali",
+      "kitapYazar": "Rasim Kaygusuz",
+      "kitapSayfa": 170,
+      "kitapResmi": "https://www.kitapbilgini.com/18033-large_default/cin-ali-hikaye.jpg",
+      "kitapAciklama": "Cin Ali, Türkiye'de ilkokul öğrencilerine okumayı kolay öğretmek amacıyla geliştirilmiş 10 kitaplık hikâye serisinin kahramanı. Cin Ali, 1970'li ve 80'li yıllarda ilköğrenime yeni başlayan çocukların en gözde kahramanı olmuştur",
+      "kitapKategoriId": 2
+    },
+    {
+      "id": 7,
+      "kitapAdi": "Dune",
+      "kitapYazar": "Frank Herbert",
+      "kitapSayfa": 712,
+      "kitapResmi": "https://img.kitapyurdu.com/v1/getImage/fn:11494736/wh:true/wi:220",
+      "kitapAciklama": "“Yüzüklerin Efendisi dışında bu kitapla kıyaslanacak başka bir kitap yok.” Arthur C. Clarke “Güçlü, inandırıcı ve usta işi.” Robert A. Heinlein “Modern bilimkurgunun mihenk taşlarından biri.” Chicago Tribune En İyi Roman kategorisinde Hugo Ödülü En İyi Roman kategorisinde Nebula Ödülü Okurlar tarafından 20. yüzyılın en iyi bilimkurgu yapıtı seçilen Dune serisi, yepyeni kapakları ve gözden geçirilmiş çevirileriyle 50. yılında İthaki’de. Modern edebiyatın en epik mesih anlatılarından biri sayılan Dune, genç Paul Atreides’in hikâyesini anlatır..",
+      "kitapKategoriId": 4
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    }
+  ],
+  "kategoriler": [
+    {
+      "kategoriId": 0,
+      "kategoriAdi": "Tüm kitaplar"
+    },
+    {
+      "kategoriId": 1,
+      "kategoriAdi": "Macera"
+    },
+    {
+      "kategoriId": 2,
+      "kategoriAdi": "Romantik"
+    },
+    {
+      "kategoriId": 3,
+      "kategoriAdi": "Bilim-Kurgu"
+    },
+    {
+      "kategoriId": 4,
+      "kategoriAdi": "Edebiyat"
+    }
+  ]
+}

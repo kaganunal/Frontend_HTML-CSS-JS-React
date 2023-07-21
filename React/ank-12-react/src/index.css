@@ -1,0 +1,25 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    background-color: chartreuse;
+}
+.Burak{
+    margin: 10px;
+    background-color: red;
+}
+.Nuri-Baran{
+    margin: 10px 0;
+    background-color: cadetblue;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+.card img {
+    width: 200px;
+} */

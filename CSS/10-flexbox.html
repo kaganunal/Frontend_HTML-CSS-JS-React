@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            /* margin: 150px auto; */
+            /* order: 2; */
+            /* flex-grow: 1; */
+        }
+        .kirmizi{
+        
+            background-color: red;
+            /* margin: 150px auto; */
+            /* order: 1; */
+            flex: 1 2 auto;
+            /* flex-grow: 1;
+            flex-shrink: 5; */
+            align-self: flex-end;
+
+        }
+        .mavi{
+         
+            background-color: blue;
+            /* margin: 150px auto; */
+            /* order: 0; */
+            /* flex-grow: 4; */
+
+        }
+        body{
+            border: 5px solid black;
+            height: 900px;
+            background-color: orangered;
+            display: flex;
+            /* flex-direction: row-reverse;
+            flex-direction: column;
+            flex-direction: column-reverse; */
+            /* flex-wrap: wrap; */
+            /* flex-flow: row wrap; */
+            /* flex-flow: column wrap; */
+            /* flex-direction: column; */
+            /* justify-content:center ; */
+            /* justify-content:space-evenly ; */
+            /* align-items: center; */
+            /* align-content: space-around;
+            align-content: space-evenly; */
+            /* gap: 200px; */
+            /* column-gap: 50px;
+            row-gap: 150px; */
+        }
+        /* p{
+            text-align: center;
+        } */
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box kirmizi"></div>
+    <div class="box mavi"></div>
+
+    <!-- <div class="box"></div>
+    <div class="box kirmizi"></div>
+    <div class="box mavi"></div>
+    <div class="box"></div>
+    <div class="box kirmizi"></div>
+    <div class="box mavi"></div> -->
+
+</body>
+</html>

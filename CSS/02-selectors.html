@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+/* element selector */
+h1,h3{
+    background-color: bisque;
+}
+.bg-dark{
+    background-color: gray;
+}
+.color-light{
+    color: white;
+}
+#yesilay{
+    background-color: blueviolet;
+}
+/* h3{
+    background-color: aquamarine;
+} */
+p{
+    color: red;
+}
+section p{
+    color: black;
+}
+section>p{
+    background-color: aqua;
+}
+section .ortada{
+    background-color: brown;
+    font-size: 40px;
+}
+section>.ortada{
+    background-color: brown;
+    font-size: 40px;
+}
+section p>span{
+    background-color: black;
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <h1>Nuri Baran</h1>
+    <h2>Nuri Baran</h2>
+    <h3>Nuri Baran</h3>
+    <p>Nuri Baran</p>
+    <h1>Nuri Baran</h1>
+
+    <h1 class="bg-dark color-light">Nuri Baran</h1>
+    <h2>Nuri Baran</h2>
+    <h3 class="bg-dark">Nuri Baran</h3>
+    <p>Nuri Baran</p>
+    <h1>Nuri Baran</h1>
+
+    <h1 class="bg-dark" id="yesilay">Nuri Baran</h1>
+    <h2>Nuri Baran</h2>
+    <h3 class="bg-dark">Nuri Baran</h3>
+    <p>Nuri Baran</p>
+    <h1>Nuri Baran</h1>
+    <section>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi sint quam hic iusto dolores dicta illo iure dolorem quas. Cum exercitationem quis, libero voluptatibus quo temporibus? Cumque, sunt. Eligendi!</p>
+        <p>Veritatis nesciunt, vero laborum veniam et dolor blanditiis maiores quo eum. Nemo nesciunt id dignissimos maiores commodi magnam. Assumenda dolorum exercitationem illum labore rem corporis asperiores nesciunt tenetur tempora laboriosam?</p>
+        <p>Totam nemo iure officia itaque! Dicta delectus quibusdam, dolor officia excepturi incidunt dignissimos cumque fugit fugiat <span> perferendis </span> quod culpa quam, ea iste hic pariatur. In maxime quia magni neque porro?</p>
+    </section>
+    <section>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi sint quam hic iusto dolores dicta illo iure dolorem quas. Cum exercitationem quis, libero voluptatibus quo temporibus? Cumque, sunt. Eligendi!</p>
+        <p class="ortada">Veritatis nesciunt, vero laborum veniam et dolor blanditiis maiores quo eum. Nemo nesciunt id dignissimos maiores commodi magnam. Assumenda dolorum exercitationem illum labore rem corporis asperiores nesciunt tenetur tempora laboriosam?</p>
+        <p>Totam nemo iure officia itaque! Dicta delectus quibusdam, dolor officia excepturi incidunt dignissimos cumque fugit fugiat perferendis quod culpa quam, ea iste hic pariatur. In maxime quia magni neque porro?</p>
+        <span>Çocuğu değil</span>
+    </section>
+    
+</body>
+</html>
